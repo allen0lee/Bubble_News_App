@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    border: 1px black solid;
+    justify-content: space-between;
+}
+
+.profile {
+    display: block;
+    border: 1px pink solid;
+    width: 10%;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.navigation {
+    display: block;
+    border: 1px blue solid;
+    width: 20%;
+}
+
+.notification {
+    display: flex;
+    border: 1px red solid;
+    flex: end;
+}
+
+.heading {
+    width: 70%;
+
+}
+

@@ -7,10 +7,25 @@
 </head>
 <body>
 
-<%# <% if logged_in? %> %>
-
+<%# <% if logged_in? %>
+  <header class= "container">
+    <div class = "profile">
+      <div><img src="http://placekitten.com/80/80" alt=""></div>
+      <div>Kitten</div>
+    </div>
+    <div class = "heading"><h1>Bubbles</h1></div>
+    <div class = "navigation">
+      <div>Add Story</div>
+      <div class = "notification">
+        <div>3</div>
+        <div>Dashboard</div>
+      </div>
+      <div>Sign Out</div>
+    </div>
+  </header>
 
   <%= yield %>
 
+  <footer></footer>
 </body>
 </html>
